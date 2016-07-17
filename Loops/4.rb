@@ -1,0 +1,12 @@
+def countdown(start)
+  if start <= 0
+    puts start
+  else
+    puts start
+    countdown(start-1)
+  end
+end
+
+countdown(10)
+countdown(5)
+countdown(-3)
